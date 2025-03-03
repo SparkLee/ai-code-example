@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分类界面</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+        }
+        .category-container {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        .category-container h2 {
+            margin-top: 0;
+            color: #d7000f;
+        }
+        .category-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category-container li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+        }
+        .category-container li:last-child {
+            border-bottom: none;
+        }
+        .header {
+            background-color: #d7000f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AI记账App</h1>
+    </div>
+    <div class="category-container">
+        <h2><i class="fas fa-list icon"></i> 分类界面</h2>
+        <ul>
+            <li>食品 <span>¥500</span></li>
+            <li>交通 <span>¥200</span></li>
+            <li>娱乐 <span>¥300</span></li>
+        </ul>
+    </div>
+</body>
+</html> 

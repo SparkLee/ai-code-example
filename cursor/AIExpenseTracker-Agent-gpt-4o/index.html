@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI记账App原型</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body, html {
+            height: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 95%;
+            margin: 0 auto;
+            padding: 10px;
+            min-height: calc(100vh - 80px); /* 80px 是 header 和 footer 的总高度 */
+            display: block;
+        }
+        .header, .footer {
+            background-color: #d7000f; /* 中国红 */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .section {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #d7000f; /* 中国红 */
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .footer {
+            margin-top: auto;
+        }
+        .button {
+            background-color: #d7000f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AI记账App原型</h1>
+    </div>
+    <div class="container">
+        <div class="section" onclick="location.href='login.html';" style="cursor: pointer;">
+            <h2><i class="fas fa-home icon"></i>主页</h2>
+            <p>显示总余额、支出、收入和预算概览。</p>
+        </div>
+        <div class="section" onclick="location.href='transactions.html';" style="cursor: pointer;">
+            <h2><i class="fas fa-edit icon"></i>记录界面</h2>
+            <p>用户可以手动添加或编辑记录。</p>
+        </div>
+        <div class="section" onclick="location.href='categories.html';" style="cursor: pointer;">
+            <h2><i class="fas fa-list icon"></i>分类界面</h2>
+            <p>查看和管理不同类别的支出。</p>
+        </div>
+        <div class="section" onclick="location.href='analysis.html';" style="cursor: pointer;">
+            <h2><i class="fas fa-chart-line icon"></i>分析界面</h2>
+            <p>展示图表和报告。</p>
+        </div>
+        <div class="section" onclick="location.href='settings.html';" style="cursor: pointer;">
+            <h2><i class="fas fa-cog icon"></i>设置界面</h2>
+            <p>用户可以管理账户设置和安全选项。</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2023 AI记账App</p>
+    </div>
+</body>
+</html>
