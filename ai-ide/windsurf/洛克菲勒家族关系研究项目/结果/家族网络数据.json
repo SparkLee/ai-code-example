@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "约翰·戴维森·洛克菲勒",
+      "english_name": "John Davison Rockefeller",
+      "birth_year": 1839,
+      "death_year": 1937,
+      "role": "家族创始人，标准石油公司创始人"
+    },
+    {
+      "id": "2",
+      "name": "伊丽莎白·洛克菲勒",
+      "english_name": "Elizabeth Rockefeller",
+      "birth_year": 1866,
+      "death_year": 1906,
+      "role": "约翰·D·洛克菲勒长女"
+    },
+    {
+      "id": "3",
+      "name": "艾达·洛克菲勒",
+      "english_name": "Alta Rockefeller",
+      "birth_year": 1871,
+      "death_year": 1962,
+      "role": "约翰·D·洛克菲勒次女"
+    },
+    {
+      "id": "4",
+      "name": "约翰·戴维森·洛克菲勒二世",
+      "english_name": "John Davison Rockefeller Jr.",
+      "birth_year": 1874,
+      "death_year": 1960,
+      "role": "约翰·D·洛克菲勒独子，家族事业继承人"
+    },
+    {
+      "id": "5",
+      "name": "埃迪丝·洛克菲勒",
+      "english_name": "Edith Rockefeller",
+      "birth_year": 1872,
+      "death_year": 1932,
+      "role": "约翰·D·洛克菲勒三女"
+    },
+    {
+      "id": "6",
+      "name": "威廉·洛克菲勒",
+      "english_name": "William Rockefeller",
+      "birth_year": 1841,
+      "death_year": 1922,
+      "role": "约翰·D·洛克菲勒的弟弟，合作伙伴"
+    },
+    {
+      "id": "7",
+      "name": "约翰·戴维森·洛克菲勒三世",
+      "english_name": "John Davison Rockefeller III",
+      "birth_year": 1906,
+      "death_year": 1978,
+      "role": "约翰·D·洛克菲勒二世长子"
+    },
+    {
+      "id": "8",
+      "name": "纳尔逊·奥尔德里奇·洛克菲勒",
+      "english_name": "Nelson Aldrich Rockefeller",
+      "birth_year": 1908,
+      "death_year": 1979,
+      "role": "政治家，纽约州州长，美国副总统"
+    },
+    {
+      "id": "9",
+      "name": "劳伦斯·洛克菲勒",
+      "english_name": "Laurance Rockefeller",
+      "birth_year": 1910,
+      "death_year": 2004,
+      "role": "风险投资家，环保主义者"
+    },
+    {
+      "id": "10",
+      "name": "温思罗普·洛克菲勒",
+      "english_name": "Winthrop Rockefeller",
+      "birth_year": 1912,
+      "death_year": 1973,
+      "role": "政治家，阿肯色州州长"
+    },
+    {
+      "id": "11",
+      "name": "戴维·洛克菲勒",
+      "english_name": "David Rockefeller",
+      "birth_year": 1915,
+      "death_year": 2017,
+      "role": "银行家，大通曼哈顿银行董事长"
+    },
+    {
+      "id": "12",
+      "name": "艾比·洛克菲勒·莫兹",
+      "english_name": "Abby Rockefeller Mauzé",
+      "birth_year": 1903,
+      "death_year": 1976,
+      "role": "慈善家"
+    }
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "1",
+      "target": "5"
+    },
+    {
+      "source": "1",
+      "target": "6"
+    },
+    {
+      "source": "4",
+      "target": "7"
+    },
+    {
+      "source": "4",
+      "target": "8"
+    },
+    {
+      "source": "4",
+      "target": "9"
+    },
+    {
+      "source": "4",
+      "target": "10"
+    },
+    {
+      "source": "4",
+      "target": "11"
+    },
+    {
+      "source": "4",
+      "target": "12"
+    }
+  ]
+}

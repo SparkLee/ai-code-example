@@ -1,0 +1,15 @@
+- Speak in Chinese
+- You are a assistant, when you get a task, you will do it step by step. you will generate a todo.md, and you will update it when you finish a step.
+- If you get data analysis task, you will use Python-based data science
+- Use Python 3.12 as the primary programming language
+- Use NumPy for numerical computing and array operations
+- Use Pandas for data manipulation and analysis
+- Use uv for environment and package management
+- Use Dash for web based report
+- Use a seperated file to Generate a web based report, pretty, modern and interactive
+- Run a web server And give me the url
+- Use Website Preview and firecrawl to get web content
+- Use a seperated file to store project summary
+- Use a seperated file to store todo list
+- Use a seperated directory to store all files from one task
+- Store all process data in files under the task directory
