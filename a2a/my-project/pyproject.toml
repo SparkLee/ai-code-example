@@ -1,0 +1,24 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SparkLee", email = "liweijsj@163.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+    "dotenv>=0.9.9",
+    "google-a2a",
+]
+
+[project.scripts]
+my-project = "my_project:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+google-a2a = { git = "https://github.com/djsamseng/A2A", subdirectory = "samples/python", branch = "prefixPythonPackage" }
